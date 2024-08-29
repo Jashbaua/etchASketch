@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    background-color: pink;
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    aspect-ratio: 1/1;
+    margin: auto;
+}
+.box{
+    background-color: red;
+}
