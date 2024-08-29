@@ -12,5 +12,9 @@
     margin: auto;
 }
 .box{
-    background-color: red;
+    background-color: pink;
+}
+button{
+    margin: 25px auto;
+    display: block;
 }
