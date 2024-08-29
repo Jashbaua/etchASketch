@@ -11,8 +11,16 @@ function createGrid(n){
     const boxes=document.querySelectorAll('.box')
     boxes.forEach((box)=>box.addEventListener('mouseenter',changeColor))
     function changeColor(event){
-        event.target.style.backgroundColor="black"
+        event.target.style.backgroundColor=randomColorGenerator()
     }
+}
+let alpha=0;
+function randomColorGenerator(){
+    let r=parseInt(Math.random()*256),
+        b=parseInt(Math.random()*256),
+        g=parseInt(Math.random()*256);
+    if(alpha<1)alpha+=0.1
+    return 'rgb('+r+','+b+','+g+','+alpha+')'
 }
 createGrid(16)
 const btn=document.querySelector('button')
