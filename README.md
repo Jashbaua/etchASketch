@@ -50,7 +50,7 @@ This project demonstrates DOM manipulation, event handling, and Flexbox layout. 
 ### Installation
 
 1. **Clone this repository**</br>
-git clone git clone https://github.com/your-username/etchASketch.git
+git clone https://github.com/your-username/etchASketch.git
 2. **Navigate into the project directory**  
 cd etchASketch
 3. **Open `index.html` in your browser**  
